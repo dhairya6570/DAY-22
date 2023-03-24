@@ -15,7 +15,7 @@ int main (){
 	printf("Enter pass : ");
 	scanf("%s",pass);
 	
-	if(strcmp(email , correctemail) == 0 && strcmp(email , correctemail) == 0){
+	if(strcmp(email , correctemail) == 0 && strcmp(email , correctpass) == 0){
 		printf("Login is successful");
 	}
 	else{
